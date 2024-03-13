@@ -1,0 +1,14 @@
+Description and Raw Features - AQI Dataset
+
+This sub-section describes the dataset Air Quality Index
+(AQI). This data set consists of AQI data collected over days
+spanning 1 to 5 years from 2015-2020 for various metropolitan cities namely amaravati, chandigargh, hyderabad, kolkata, patna, delhi, amritsar,gurugram, vishakhapatnam, allowing
+an complete representation of the entire 5years AQI data.
+This data set comprises of the attributes such as: City name, Date of measurement, Respirable Suspended Particulate Matter (RSPM) or Particulate Matter (PM10), Particulate matter(PM2.5), Nitric Oxide(NO),Nitrous oxide(NO2), nitrogen oxides(NOx), Ammonia(NH3), Carbon Oxide(CO), Sulphur Dioxide(SO2),Ozone(O3), Benzene, Toluene, Xylene, AQI, AQI_Bucket. Beyond the basics, we
+also have columns that tells us about the air composition with
+data points like the Ozone(O3), Sulphur Dioxide (SO2) count, Nitrogen Dioxide (NO2) count, and Respirable Suspended Particulate Matter (RSPM) or Particulate Matter (PM10). Interestingly, we have some empty columns of some cities for  attributes such as AQI_Bucket,AQI for some regions of the cities,  Suspended Particulate Matter (SPM) or Particulate Matter (PM2.5),Particulate Matter (PM10), air components like Benzene, Benzene, Xylene, NH3, etc., Assuming the agency responsible for recording the data didn’t have the equipment to record the data of these cities for example, the data of a train station of a city wasn't recorded so the attribute showing the area underlying the station will be empty, and we will discard all such data and drop the coloumns. 
+
+Gap in year or months
+
+There is range increase in the data recorded in each year, we’re looking at an average of around 280 readings in the first two sets (2012 and 2013), following years have an average of 730 readings per year, a clear imbalance between two sets of years, posing difficulties in discerning patterns and trends in air quality. This chronological breakdown an imbalance not only facilitates focused analyses but also accommodates the
+dynamic changes in air quality over this four-year span, how to deal with the imbalance will be challenging and a testament to how real world data is more complex than standard benchmarking techniques and data used to rate models on similar tasks.

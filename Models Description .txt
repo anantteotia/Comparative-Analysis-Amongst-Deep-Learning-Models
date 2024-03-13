@@ -1,0 +1,16 @@
+Moodel Description 
+
+Transformers for Time Series (TST):
+
+Overview: Transformers, originally designed for natural language processing tasks, have shown effectiveness in handling sequential data, including time series. Transformers for time series, often referred to as TST, adapt the transformer architecture to capture temporal dependencies in sequential data.
+
+Patch-Based Approach: One common approach involves dividing the time series into smaller patches or segments, treating them as input tokens for the transformer model. This allows the model to capture local patterns and dependencies within each patch.
+
+Multi-Head Attention: The multi-head attention mechanism in transformers helps the model focus on different parts of the input sequence simultaneously, aiding in capturing both short and long-term dependencies. 
+
+
+TSMixer:
+
+Overview: TSMixer is a lightweight MLP-Mixer model designed specifically for multivariate time series forecasting and representation learning. It draws inspiration from the success of MLP-Mixer models in computer vision.
+
+Performance: Outperforms state-of-the-art MLP and Transformer models in forecasting by a considerable margin (8-60% improvement).Also outperforms the latest strong benchmarks of Patch-Transformer models (by 1-2%) while significantly reducing memory usage and runtime (2-3X reduction).
